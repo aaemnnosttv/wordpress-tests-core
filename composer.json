@@ -1,0 +1,16 @@
+{
+    "name": "aaemnnosttv/wordpress-tests",
+    "description": "WordPress core phpunit test library",
+    "type": "wordpress-tests",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evan Mattson",
+            "email": "me@aaemnnost.tv"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.0",
+        "aaemnnosttv/wordpress-tests-installer": "dev-master"
+    }
+}
