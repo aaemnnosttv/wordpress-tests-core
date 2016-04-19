@@ -11,6 +11,6 @@
     ],
     "require": {
         "composer/installers": "^1.0",
-        "aaemnnosttv/wordpress-tests-installer": "dev-master"
+        "aaemnnosttv/wordpress-tests-installer": "^0.1"
     }
 }
