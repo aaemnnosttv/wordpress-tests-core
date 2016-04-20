@@ -1,16 +1,25 @@
 {
     "name": "aaemnnosttv/wordpress-tests-core",
-    "description": "WordPress core phpunit test library",
+    "description": "WordPress core PHPUnit test library",
     "type": "wordpress-tests-core",
-    "license": "MIT",
+    "license": "GPL-2.0+",
     "authors": [
+        {
+            "name": "WordPress Community",
+            "homepage": "https://wordpress.org/about/"
+        },
         {
             "name": "Evan Mattson",
             "email": "me@aaemnnost.tv"
         }
     ],
+    "support": {
+        "issues": "https://core.trac.wordpress.org/",
+        "wiki": "https://codex.wordpress.org/",
+        "source": "https://core.trac.wordpress.org/browser/trunk/tests/phpunit/includes"
+    },
     "require": {
         "composer/installers": "^1.0",
-        "aaemnnosttv/wordpress-tests-core-installer": "^0.1"
+        "aaemnnosttv/wordpress-tests-core-installer": "~0.1"
     }
 }
