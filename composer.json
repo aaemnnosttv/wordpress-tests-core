@@ -1,7 +1,7 @@
 {
-    "name": "aaemnnosttv/wordpress-tests",
+    "name": "aaemnnosttv/wordpress-tests-core",
     "description": "WordPress core phpunit test library",
-    "type": "wordpress-tests",
+    "type": "wordpress-tests-core",
     "license": "MIT",
     "authors": [
         {
@@ -11,6 +11,6 @@
     ],
     "require": {
         "composer/installers": "^1.0",
-        "aaemnnosttv/wordpress-tests-installer": "^0.1"
+        "aaemnnosttv/wordpress-tests-core-installer": "^0.1"
     }
 }
