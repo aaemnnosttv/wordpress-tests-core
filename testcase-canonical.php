@@ -30,8 +30,13 @@ class WP_Canonical_UnitTestCase extends WP_UnitTestCase {
 		update_option( 'comments_per_page', 5 );
 		update_option( 'posts_per_page', 5 );
 
-		$this->set_permalink_structure( $this->structure );
+		global $wp_rewrite;
+		$wp_rewrite->init();
+		$wp_rewrite->set_permalink_structure( $this->structure );
+
 		create_initial_taxonomies();
+
+		$wp_rewrite->flush_rules();
 	}
 
 	/**
